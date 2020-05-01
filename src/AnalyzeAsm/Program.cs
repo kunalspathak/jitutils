@@ -125,7 +125,7 @@ namespace AnalyzeAsm
 
                 foreach (var index in indexes)
                 {
-                    var occurances = index.GetOccurances(methodName);
+                    var occurances = index.GetOccurences(methodName);
 
                     foreach (var occurance in occurances)
                     {
