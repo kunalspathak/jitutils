@@ -17,3 +17,7 @@ browse.VC.db
 # vi
 
 *~
+
+# dotnet artifacts
+artifacts
+.dotnet

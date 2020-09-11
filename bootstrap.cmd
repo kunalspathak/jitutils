@@ -9,6 +9,8 @@ REM 3. Download (if necessary) clang-format.exe and clang-tidy.exe (used by the 
 
 set __ExitCode=0
 
+call .\eng\dotnet.cmd
+
 where /q dotnet.exe
 if %errorlevel% NEQ 0 echo Can't find dotnet.exe! Please install this ^(e.g., from https://www.microsoft.com/net/core^) and add dotnet.exe to PATH&set __ExitCode=1&goto :script_exit
 
